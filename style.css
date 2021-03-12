@@ -1,0 +1,27 @@
+.duze {
+    font-size: 40px;
+}
+
+.margin {
+    margin: 50px;
+}
+.aqua {
+    background-color: aquamarine;
+    color: aqua;
+}
+.aqua:hover {
+    background-color: rgb(255, 239, 10);
+    opacity: 0;
+    transition: ease 1s;
+}
+
+.spaning {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+.grid-item {
+    color: rgb(255, 0, 0);
+    padding: 50px;
+    text-align: center;
+}
